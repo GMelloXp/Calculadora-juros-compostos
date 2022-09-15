@@ -1,0 +1,115 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Hunter's Invest</title>
+</head>
+<link rel=stylesheet href="style.css"></link>
+<script src="arquivo.js"></script>
+<body>
+  
+<header>
+<div>
+<h3 class="titulo_header">Calculadora de juros compostos</h3>
+</div>
+</header>
+
+<section>
+
+	<div class="form_space">
+
+	 <div class="texto-juros">
+	
+		<p><strong>
+		Os juros compostos crescem de forma exponencial, pois sua base de cálculo é sempre em cima do montante anterior. Faça esse cálculo financeiro de forma simples utilizando nossa calculadora.
+		</strong></p>
+
+
+	 </div>
+
+		<form class="formulario_jc">
+		
+		<p>
+		<label for="valor_inicial">Valor inicial (R$):</label>
+		<input type="number" name="valor_inicial" placeholder="R$ 0,00" class="entradas">
+		</p>
+		
+		<p>
+		<label for="valor_mensal">Valor mensal (R$):</label>
+		<input type="number" name="valor_mensal" placeholder="R$ 0,00" class="entradas">
+		</p>
+
+		<p>
+		<label for="taxa">Taxa de juros:</label>
+		<input type="number" name="taxa" placeholder="0,00" class="entradas">
+		</p>
+
+		<p>
+		<label for="periodo">Período:</label>
+		<input type="text" name="periodo" placeholder="m" class="entradas">
+		</p>
+
+		<p>
+		<button type=button name="btn-Calc" id="btn-calcular" onClick="Calcular()">CALCULAR!</button>
+		</p>
+		
+		</form>
+		
+	</div>
+		<div class="titulos">
+
+		<span class="titulo-resultado">
+		<h5>Total Investido!</h5>
+		</span>
+		
+		<span class="titulo-resultado">
+		<h5>Total de Rendimentos!</h5>
+		</span>
+			
+		<span class="titulo-resultado">
+		<h5>Total Acumulado!</h5>
+		</span>
+
+		</div>
+		
+		
+		<div class="resultados"> 
+				
+			
+			
+			<div id="valor-investido">
+				
+			</div>
+
+
+			<div id="rendimentos">
+		
+			</div>
+			
+
+			<div id="valor-final">
+		
+			</div>
+
+
+		</div>
+
+</section>
+
+
+
+	
+</body>
+
+
+</html>

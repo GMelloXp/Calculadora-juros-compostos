@@ -1,0 +1,1 @@
+Este é um exercício que fiz de uma calculadora de juros compostos para aplicações financeiras. O projeto foi feito até agora apenas com HTML + CSS + JS sem uso de outro framework, porém eu irei implementalo conforme for aprendendo novas skils. 

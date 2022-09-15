@@ -1,0 +1,160 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+body {
+background-color: #e7e0f0;
+}
+
+header {
+
+	background-color: #602af4;
+	padding: 30px;
+
+	
+
+}
+
+
+.titulo_header {
+
+	margin-left: 35%;
+	font-family: verdana;
+	color: #EFECEC;
+	font-size: 30px;
+	
+}
+
+
+.texto-juros {
+
+	margin: 4em 12em 0em 12em;
+	font-family:  courier, monospace;
+	font-size: 20px;
+	color: #0d1468;
+	text-align: center;
+	
+}
+
+
+
+.formulario_jc {
+
+	
+	background-color: #602af4;
+	margin: 7% 38%;
+	padding: 5% 5% 5% 4.5%;
+	color: white;
+	font-family: courier, monospace;
+	font-size: 18px;
+	border-radius: 10px 15px 10px 20px;
+	box-shadow: 8px 12px #a029e0;
+	
+	
+
+}
+
+#btn-calcular {
+	
+	background-color: white;
+	height: 3em;
+	margin: 20px 10px 0 25px;
+	padding: 10px;
+	border-radius: 5px 12px 5px 12px;
+	box-shadow: 1px 2px #e861ea;
+	font-size: 18px;
+	font-family: courier, monospace;
+	
+}
+
+.entradas {
+
+	height: 2em;
+	border-radius: 5px;
+	box-shadow: 1px 2px #e861ea;
+	margin: 3px auto 3px auto;
+	
+}
+
+
+.resultados {
+
+display: flex;
+background-color: #c0a7c3;
+
+
+
+
+}
+
+
+#valor-investido {
+	
+	width: 9em;
+	height: 4em;
+	margin: 0% 4% 4% 8%;
+	
+	
+	color: #070576;
+	font-size: 25px;
+	font-family: verdana;	
+	text-align: center;
+
+}
+
+
+#rendimentos {
+
+	width: 9em;
+	height: 4em;
+	margin: 0% 4% 4% 5%;
+	
+	color: #0c8103;
+	font-size: 25px;
+	font-family: verdana;
+	text-align: center;
+
+
+}
+
+#valor-final {
+
+	width: 9em;
+	height: 4em;
+	margin: 0% 4% 4% 4.5%;
+	
+	
+	color: #070576;
+	font-size: 25px;
+	font-family: verdana;
+	text-align: center;
+
+}
+
+.titulo-resultado {
+	
+	font-family: verdana;
+	color: black;
+	font-size: 25px;
+	color: #0d1468;
+	height: 2em;
+	text-align: center;
+	margin: 2% 0% 0% 12%
+	
+	
+
+}
+
+
+.titulos {
+
+	display: flex;
+background-color: #c0a7c3;
+
+
+}
+
+
+
+
